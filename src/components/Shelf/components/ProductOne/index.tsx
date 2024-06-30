@@ -18,10 +18,13 @@ function ProductOne() {
       <div className="product-card">
         <div className="product-sku">
           <ul>
-            <li className="sku-selected bg-[#DEAC71]"></li>
-            <li className="bg-[#D37164]"></li>
-            <li className="bg-[#6497D3]"></li>
-            <li className="bg-[#3C3B79]"></li>
+            <li
+              className="sku-selected"
+              style={{ backgroundColor: '#DEAC71' }}
+            ></li>
+            <li style={{ backgroundColor: '#D37164' }}></li>
+            <li style={{ backgroundColor: '#6497D3' }}></li>
+            <li style={{ backgroundColor: '#3C3B79' }}></li>
           </ul>
         </div>
         <p className="product-value">

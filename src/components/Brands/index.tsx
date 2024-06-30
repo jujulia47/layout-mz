@@ -2,10 +2,10 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 import './style.global.css';
-
-// import { Swiper, SwiperSlide } from "swiper/react";
 
 function Brands() {
   return (
@@ -14,62 +14,93 @@ function Brands() {
         <strong>Marcas Parceiras</strong>
       </h1>
       <section className="brands-section">
-        {/* <Swiper
-          spaceBetween={30}
+        <Swiper
           loop={true}
+          spaceBetween={30}
+          modules={[Pagination, Autoplay]}
+          pagination={{
+            clickable: true,
+            dynamicBullets: true,
+          }}
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: true,
+          }}
           breakpoints={{
-            960: {
+            1600: {
               slidesPerView: 5,
+            },
+            1360: {
+              slidesPerView: 4,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            320: {
+              slidesPerView: 1,
             },
           }}
           className="mySwiper"
-        > */}
-        {/* <SwiperSlide><img src="comma.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="melissa.png" alt="" /></SwiperSlide>
-          <SwiperSlide> <img src="forever-21.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="zara.png" alt="" /></SwiperSlide>
-          <SwiperSlide><img src="ann-taylor.png" alt="" /></SwiperSlide>
-        </Swiper> */}
-        <Image
-          src="/brands/comma.png"
-          width={307}
-          height={64}
-          alt="banner principal"
-          quality={80}
-          sizes="100vw"
-        />
-        <Image
-          src="/brands/melissa.png"
-          width={307}
-          height={64}
-          alt="banner principal"
-          quality={80}
-          sizes="100vw"
-        />
-        <Image
-          src="/brands/forever-21.png"
-          width={307}
-          height={64}
-          alt="banner principal"
-          quality={80}
-          sizes="100vw"
-        />
-        <Image
-          src="/brands/zara.png"
-          width={307}
-          height={64}
-          alt="banner principal"
-          quality={80}
-          sizes="100vw"
-        />
-        <Image
-          src="/brands/ann-taylor.png"
-          width={307}
-          height={64}
-          alt="banner principal"
-          quality={80}
-          sizes="100vw"
-        />
+        >
+          <SwiperSlide>
+            {' '}
+            <Image
+              src="/brands/comma.png"
+              width={307}
+              height={64}
+              alt="logo da marca comma"
+              quality={80}
+              sizes="100vw"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {' '}
+            <Image
+              src="/brands/melissa.png"
+              width={307}
+              height={64}
+              alt="logo da marca melissa"
+              quality={80}
+              sizes="100vw"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {' '}
+            <Image
+              src="/brands/forever-21.png"
+              width={307}
+              height={64}
+              alt="logo da marca forever 21"
+              quality={80}
+              sizes="100vw"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {' '}
+            <Image
+              src="/brands/zara.png"
+              width={307}
+              height={64}
+              alt="logo da marca zara"
+              quality={80}
+              sizes="100vw"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {' '}
+            <Image
+              src="/brands/ann-taylor.png"
+              width={307}
+              height={64}
+              alt="logo da marca ann taylor"
+              quality={80}
+              sizes="100vw"
+            />
+          </SwiperSlide>
+        </Swiper>
       </section>
     </>
   );

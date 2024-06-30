@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import './style.global.css';
 import { font_body } from '@/fonts';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 export const metadata: Metadata = {
   title: 'Maeztra',

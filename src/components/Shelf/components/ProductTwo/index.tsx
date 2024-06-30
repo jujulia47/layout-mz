@@ -18,10 +18,13 @@ function ProductTwo() {
       <div className="product-card">
         <div className="product-sku">
           <ul>
-            <li className=" sku-selectedbg-[#1C1A19]"></li>
-            <li className="bg-[#D84E4B]"></li>
-            <li className="bg-[#CFC9B0]"></li>
-            <li className="bg-[#EAE9E5]"></li>
+            <li
+              className=" sku-selected"
+              style={{ backgroundColor: '#1C1A19' }}
+            ></li>
+            <li style={{ backgroundColor: '#D84E4B' }}></li>
+            <li style={{ backgroundColor: '#CFC9B0' }}></li>
+            <li style={{ backgroundColor: '#EAE9E5' }}></li>
           </ul>
         </div>
         <p className="product-value">

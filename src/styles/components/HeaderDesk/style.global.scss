@@ -1,24 +1,29 @@
-.header-desk{
+.header-desk {
   box-shadow: 0px 4px 6px 0px #00000014;
-  .header-container{
+  .header-container {
     display: flex;
     justify-content: space-between;
-    max-width: 1920px;
+    max-width: 1600px;
     margin: auto;
-    padding: 0 160px;
     height: 88px;
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+      padding: 0 20px;
+    }
+    @media only screen and (min-width: 1025px) and (max-width: 1600px) {
+      padding: 0 60px;
+    }
     .logo {
       margin: auto 0;
     }
 
-    .search{
+    .search {
       width: 50%;
       height: 40px;
       display: flex;
       justify-content: center;
       border-radius: 10px;
       margin: auto;
-      input{
+      input {
         height: 40px;
         border-radius: 10px;
         border: none;
@@ -26,9 +31,12 @@
         width: 83.333333%;
         padding-left: 24px;
         font-size: 14px;
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          width: 70%;
+        }
       }
-      
-      button{
+
+      button {
         background-color: var(--button);
         color: #fff;
         border-radius: 8px;
@@ -39,49 +47,52 @@
     }
   }
 
-  .menu-nav{
+  .menu-nav {
     margin: auto 0;
-    ul{
+    ul {
       display: flex;
       align-items: center;
       gap: 40px;
-      li{
+      li {
         display: flex;
         align-items: center;
         gap: 8px;
-        .cart{
+        .cart {
           border: 1px solid var(--button);
           border-radius: 8px;
           padding: 16px;
         }
-        p{
+        p {
           font-size: 14px;
         }
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        gap: 20px;
       }
     }
   }
 }
 
-.menu-container{
+.menu-container {
   margin: auto;
   max-width: 1600px;
   height: 40px;
   padding: 10px 0;
 
-  ul{
+  ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 40px;
     padding: 0 80px;
-    li{
+    li {
       display: flex;
       align-items: center;
       gap: 8px;
-      p{
+      p {
         font-size: 14px;
       }
-      .news{
+      .news {
         color: var(--button);
         font-weight: 700;
       }

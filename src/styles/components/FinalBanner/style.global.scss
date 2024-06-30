@@ -28,7 +28,7 @@
   }
 
   @media (max-width: 768px) {
-    flex-direction: column;
-    margin: 40px 32px;
+    display: block;
+    margin: 40px 0;
   }
 }

@@ -17,31 +17,73 @@
 
 .body-content {
   max-width: 1600px;
-  @media (max-width: 1919px) {
+  margin: auto;
+  @media only screen and (min-width: 1025px) and (max-width: 1600px) {
     padding: 0 60px;
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    padding: 0 40px;
+  }
+  @media (max-width: 768px) {
+    margin: 0 32px;
   }
 }
 
-input:focus,
-textarea:focus {
-  outline: none;
-  border-color: var(--color);
-  background: white;
-  box-shadow: 0 0 0 3px var(--color-light);
+@media (max-width: 768px) {
+  .swiper-pagination {
+    display: none;
+  }
+}
+.swiper-pagination-bullet {
+  background-color: transparent;
+  border: 2px solid var(--button);
+  &-active-main {
+    background-color: var(--button);
+  }
+}
+.mySwiperBanner {
+  .swiper-pagination {
+    display: block;
+  }
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 12px);
+  }
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    &-active {
+      background-color: var(--button);
+    }
+  }
+}
+.swiper-button-disabled {
+  opacity: unset !important;
+}
+.swiper-button-next::after {
+  content: '';
+  display: block;
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='32' fill='none' viewBox='0 0 20 32' %3E%3Cpath fill='%23000' d='M18.905 17.244L4.663 31.484c-.687.688-1.8.688-2.487 0l-1.66-1.66a1.759 1.759 0 01-.004-2.484L11.8 16 .512 4.66a1.759 1.759 0 01.003-2.484L2.176.516a1.759 1.759 0 012.487 0l14.242 14.24c.686.687.686 1.8 0 2.488z' %3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  color: transparent;
+  width: 19.42px;
+  height: 32px;
 }
 
-button:hover,
-button:focus {
-  background: var(--color);
-  box-shadow: 0 0 0 3px var(--color-light), 0 0 0 4px var(--color);
-  outline: none;
+.swiper-button-prev::after {
+  content: '';
+  display: block;
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='32' fill='none' viewBox='0 0 20 32' %3E%3Cpath fill='%23000' d='M.515 14.756L14.757.515a1.759 1.759 0 012.487 0l1.661 1.661c.686.686.687 1.797.003 2.484L7.621 16l11.286 11.34a1.758 1.758 0 01-.003 2.484l-1.66 1.661c-.687.687-1.801.687-2.488 0L.515 17.243a1.759 1.759 0 010-2.487z' %3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  color: transparent;
+  width: 19.42px;
+  height: 32px;
 }
 
-button:active {
-  box-shadow: 0 0 0 3px var(--color), 0 0 0 4px var(--color);
-}
-
-button:disabled {
-  opacity: 0.5;
-  cursor: wait;
+@media (max-width: 768px) {
+  .mySwiperShelf {
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+    }
+  }
 }

@@ -5,11 +5,13 @@ import IconDress from '@/components/HeaderDesk/icons/dress';
 import IconFavorite from '@/components/HeaderDesk/icons/favorite';
 import IconUser from '@/components/HeaderDesk/icons/user';
 
+import '../style.global.css';
+
 function MenuMob({ isOpen, toggleMenu }: any) {
   return (
     <div className={`menu-mob ${isOpen ? 'open' : ''}`}>
-      <nav className="flex items-center justify-between border-b border-solid border-[var(--color-neutral-1)] p-5 -mt-8">
-        <ul className="flex gap-8">
+      <nav className="nav-mob">
+        <ul>
           <li>
             <IconUser />
           </li>
@@ -19,15 +21,15 @@ function MenuMob({ isOpen, toggleMenu }: any) {
         </ul>
         <div>
           <p className="close-menu" onClick={toggleMenu}>
-            <strong className="text-xl text-black font-bold">X</strong>
+            <strong>X</strong>
           </p>
         </div>
       </nav>
-      <section>
-        <ul className="flex flex-col gap-5 p-5">
-          <li className="flex items-center gap-3">
+      <section className="menu-mob--section">
+        <ul>
+          <li className="news-mob">
             <IconDress />
-            <p className="text-[var(--button)]">Novidades</p>
+            <p className="news-mob">Novidades</p>
           </li>
           <li>
             <p>Vestidos</p>

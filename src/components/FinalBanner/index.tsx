@@ -1,9 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
+import { useMediaQuery } from 'react-responsive';
 
 import './style.global.css';
 
 function FinalBanner() {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+
   return (
     <section className="final-banner">
       <article className="text-area">
@@ -24,15 +27,17 @@ function FinalBanner() {
       </article>
       <article className="banner">
         <Image
-          src="/banners/banner02-desk.png"
-          width={1114}
-          height={480}
-          alt="banner principal"
-          quality={80}
+          src={
+            isMobile
+              ? '/banners/final-banner-mob.png'
+              : '/banners/final-banner-desk.png'
+          }
+          width={isMobile ? 298 : 1114}
+          height={isMobile ? 184 : 480}
+          alt="banner final"
+          quality={100}
           sizes="100vw"
         />
-        {/* <img src="banner-02.png" alt="" className="max-md:hidden" />
-        <img src="banner02-mob.png" alt="" className="hidden max-md:block" /> */}
       </article>
     </section>
   );
