@@ -1,26 +1,28 @@
-#Teste Layout
+# Teste Layout
 ## Getting Started
 
-```bash
 npm install
-# or
+ou
 yarn install
 
 npm run dev
-# or
+ou
 yarn dev
 
 *Para rodar o projeto, o node precisar estar na versão >=18.17.0
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-##interações
+## Interações
 
 Modal: Quando preenche o campo do email e clica em enviar aparece um alert de sucesso
 Newsletter: Quando preenche o campo do email e clica em enviar aparece um alert de sucesso
 Resoluções: < 1600px  tem slider na barra de benefícios, marcar e prateleiras (a quantidade vai diminuindo conforme a resolução até chegar no mobile e ter um elemento por slider)
 
-###Mobile
+### Mobile
 Menu: Quando clicar no hambúrguer, abre o menu
-Footer: abre cada cada seção com suas respectivas informações 
+Footer: abre cada cada seção com suas respectivas informações
+
+## Página
+Link para visualizar a página => https://layout-mz.vercel.app/
 
