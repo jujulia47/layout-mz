@@ -56,7 +56,7 @@ function Modal() {
                   Receba em Primeira mão <br />
                   <strong> desconto e ofertas exclusivas</strong>
                 </p>
-                <form onSubmit={handleSubmit} className="form">
+                <form onSubmit={handleSubmit} className="form-modal">
                   <input
                     type="email"
                     value={email}

@@ -1,13 +1,17 @@
 'use client';
 
-import React from 'react';
+import React, { FC } from 'react';
 import IconDress from '@/components/HeaderDesk/icons/dress';
 import IconFavorite from '@/components/HeaderDesk/icons/favorite';
 import IconUser from '@/components/HeaderDesk/icons/user';
 
 import '../style.global.css';
 
-function MenuMob({ isOpen, toggleMenu }: any) {
+interface MenuMobProps {
+  isOpen: boolean;
+  toggleMenu: () => void;
+}
+function MenuMob({ isOpen, toggleMenu }: MenuMobProps) {
   return (
     <div className={`menu-mob ${isOpen ? 'open' : ''}`}>
       <nav className="nav-mob">

@@ -1,7 +1,6 @@
 'use client';
 import { useMediaQuery } from 'react-responsive';
 import Modal from '@/components/Modal';
-import TopBar from '@/components/TopBar';
 import HeaderDesk from '@/components/HeaderDesk';
 import HeaderMob from '@/components/HeaderMob';
 import SliderBanner from '@/components/SliderBanner';
@@ -19,7 +18,6 @@ export default function Home() {
   return (
     <main>
       <Modal />
-      <TopBar />
       {isMobile ? <HeaderMob /> : <HeaderDesk />}
       <SliderBanner />
       <section className="body-content">

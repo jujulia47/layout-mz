@@ -4,12 +4,14 @@ import IconUser from './icons/user';
 import IconFavorite from './icons/favorite';
 import IconBag from './icons/bag';
 import IconDress from './icons/dress';
+import TopBar from '../TopBar';
 
 import './style.global.css';
 
 function HeaderDesk() {
   return (
     <>
+      <TopBar />
       <section className="header-desk">
         <header className="header-container">
           <Image
@@ -21,13 +23,6 @@ function HeaderDesk() {
             sizes="100vw"
             className="logo"
           />
-          {/* <img
-            src="logo-mz-desk.png"
-            alt=""
-            height={18}
-            width={147}
-            className="logo"
-          /> */}
           <div className="search">
             <input
               type="search"

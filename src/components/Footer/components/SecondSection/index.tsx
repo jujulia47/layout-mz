@@ -12,7 +12,7 @@ function SecondSection() {
             src="/footer/social/facebook.png"
             width={32}
             height={32}
-            alt="banner principal"
+            alt="logo facebook"
             quality={80}
             sizes="100vw"
           />
@@ -20,7 +20,7 @@ function SecondSection() {
             src="/footer/social/linkedin.png"
             width={32}
             height={32}
-            alt="banner principal"
+            alt="logo linkedin"
             quality={80}
             sizes="100vw"
           />
@@ -28,7 +28,7 @@ function SecondSection() {
             src="/footer/social/instagram.png"
             width={32}
             height={32}
-            alt="banner principal"
+            alt="logo instagram"
             quality={80}
             sizes="100vw"
           />
@@ -36,7 +36,7 @@ function SecondSection() {
             src="/footer/social/youtube.png"
             width={32}
             height={32}
-            alt="banner principal"
+            alt="logo youtube"
             quality={80}
             sizes="100vw"
           />
@@ -46,7 +46,7 @@ function SecondSection() {
             src="/footer/metodos-pagamento/mastercard.png"
             width={32}
             height={32}
-            alt="banner principal"
+            alt="logo mastercad"
             quality={80}
             sizes="100vw"
           />
@@ -54,7 +54,7 @@ function SecondSection() {
             src="/footer/metodos-pagamento/visa.png"
             width={32}
             height={32}
-            alt="banner principal"
+            alt="logo visa"
             quality={80}
             sizes="100vw"
           />
@@ -62,7 +62,7 @@ function SecondSection() {
             src="/footer/metodos-pagamento/mastercard.png"
             width={32}
             height={32}
-            alt="banner principal"
+            alt="logo mastercad"
             quality={80}
             sizes="100vw"
           />
@@ -70,7 +70,7 @@ function SecondSection() {
             src="/footer/metodos-pagamento/visa.png"
             width={32}
             height={32}
-            alt="banner principal"
+            alt="logo visa"
             quality={80}
             sizes="100vw"
           />
@@ -93,7 +93,7 @@ function SecondSection() {
               src="/footer/logos/mz-footer-desk.png"
               width={64}
               height={24}
-              alt="logo vtex"
+              alt="logo maeztra"
               quality={80}
               sizes="100vw"
             />

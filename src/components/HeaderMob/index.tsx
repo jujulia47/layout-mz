@@ -6,6 +6,7 @@ import MenuMob from './MenuMob';
 import IconMenu from './icons/menu';
 import IconSearch from './icons/search';
 import IconBagMob from './icons/bagMob';
+import TopBar from '../TopBar';
 
 import './style.global.css';
 
@@ -18,9 +19,10 @@ function HeaderMob() {
 
   return (
     <>
-      <div className={`open ${isMenuOpen ? 'menu-open' : 'hidden'}`}>
+      <div className={`menu-open ${isMenuOpen ? 'open' : 'hidden'}`}>
         <MenuMob isOpen={isMenuOpen} toggleMenu={handleMenuClick} />
       </div>
+      <TopBar />
       <section className="menu-section">
         <div className="menu-icon" onClick={handleMenuClick}>
           <IconMenu />
