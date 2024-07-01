@@ -43,7 +43,7 @@ function Modal() {
                 width={426}
                 height={532}
                 alt="imagem modal"
-                quality={80}
+                quality={100}
                 sizes="100vw"
                 className="img-modal"
               />

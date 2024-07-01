@@ -31,7 +31,7 @@ function HeaderMob() {
             width={100}
             height={12}
             alt="Logo Maeztra mobile"
-            quality={80}
+            quality={100}
             sizes="100vw"
           />
         </div>

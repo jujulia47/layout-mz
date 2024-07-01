@@ -11,7 +11,7 @@ function ProductTwo() {
         width={308}
         height={381}
         alt="imagem do segundo produto"
-        quality={80}
+        quality={100}
         sizes="100vw"
         className="product-img"
       />

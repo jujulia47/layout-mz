@@ -52,7 +52,7 @@ function Brands() {
               width={307}
               height={64}
               alt="logo da marca comma"
-              quality={80}
+              quality={100}
               sizes="100vw"
             />
           </SwiperSlide>
@@ -63,7 +63,7 @@ function Brands() {
               width={307}
               height={64}
               alt="logo da marca melissa"
-              quality={80}
+              quality={100}
               sizes="100vw"
             />
           </SwiperSlide>
@@ -74,7 +74,7 @@ function Brands() {
               width={307}
               height={64}
               alt="logo da marca forever 21"
-              quality={80}
+              quality={100}
               sizes="100vw"
             />
           </SwiperSlide>
@@ -85,7 +85,7 @@ function Brands() {
               width={307}
               height={64}
               alt="logo da marca zara"
-              quality={80}
+              quality={100}
               sizes="100vw"
             />
           </SwiperSlide>
@@ -96,7 +96,7 @@ function Brands() {
               width={307}
               height={64}
               alt="logo da marca ann taylor"
-              quality={80}
+              quality={100}
               sizes="100vw"
             />
           </SwiperSlide>

@@ -19,7 +19,7 @@ function HeaderDesk() {
             width={147}
             height={18}
             alt="logo maeztra desktop"
-            quality={80}
+            quality={100}
             sizes="100vw"
             className="logo"
           />

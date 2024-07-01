@@ -11,7 +11,7 @@ function ProductOne() {
         width={308}
         height={381}
         alt="imagem do primeiro produto"
-        quality={80}
+        quality={100}
         sizes="100vw"
         className="product-img"
       />

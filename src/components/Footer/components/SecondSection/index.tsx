@@ -13,7 +13,7 @@ function SecondSection() {
             width={32}
             height={32}
             alt="logo facebook"
-            quality={80}
+            quality={100}
             sizes="100vw"
           />
           <Image
@@ -21,7 +21,7 @@ function SecondSection() {
             width={32}
             height={32}
             alt="logo linkedin"
-            quality={80}
+            quality={100}
             sizes="100vw"
           />
           <Image
@@ -29,7 +29,7 @@ function SecondSection() {
             width={32}
             height={32}
             alt="logo instagram"
-            quality={80}
+            quality={100}
             sizes="100vw"
           />
           <Image
@@ -37,7 +37,7 @@ function SecondSection() {
             width={32}
             height={32}
             alt="logo youtube"
-            quality={80}
+            quality={100}
             sizes="100vw"
           />
         </div>
@@ -47,7 +47,7 @@ function SecondSection() {
             width={32}
             height={32}
             alt="logo mastercad"
-            quality={80}
+            quality={100}
             sizes="100vw"
           />
           <Image
@@ -55,7 +55,7 @@ function SecondSection() {
             width={32}
             height={32}
             alt="logo visa"
-            quality={80}
+            quality={100}
             sizes="100vw"
           />
           <Image
@@ -63,7 +63,7 @@ function SecondSection() {
             width={32}
             height={32}
             alt="logo mastercad"
-            quality={80}
+            quality={100}
             sizes="100vw"
           />
           <Image
@@ -71,7 +71,7 @@ function SecondSection() {
             width={32}
             height={32}
             alt="logo visa"
-            quality={80}
+            quality={100}
             sizes="100vw"
           />
         </div>
@@ -83,7 +83,7 @@ function SecondSection() {
               width={64}
               height={24}
               alt="logo vtex"
-              quality={80}
+              quality={100}
               sizes="100vw"
             />
           </div>
@@ -94,7 +94,7 @@ function SecondSection() {
               width={64}
               height={24}
               alt="logo maeztra"
-              quality={80}
+              quality={100}
               sizes="100vw"
             />
           </div>
