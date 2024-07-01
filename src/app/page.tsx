@@ -11,6 +11,8 @@ import FinalBanner from '@/components/FinalBanner';
 import Newsletter from '@/components/Newsletter';
 import Footer from '@/components/Footer';
 
+import './style.global.css';
+
 export default function Home() {
   const isMobile = useMediaQuery({ maxWidth: 768 });
   return (
