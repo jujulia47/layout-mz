@@ -29,5 +29,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Página
 -Link para visualizar a página => https://layout-mz.vercel.app/
 
-OBS: No menu e footer adicionei a tag <p> nos items ao invés de link por conta que não havia nenhum link de redirecionamento para adicionar.
+OBS: No menu e footer adicionei a tag de parágrafo nos items ao invés de link por conta que não havia nenhum link de redirecionamento para adicionar.
 
